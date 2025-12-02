@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 
-
 export interface Coach {
   id: string;
   name: string;
   specialty: string;
   image: string;
+  instagram: string;
 }
 
 export interface Artist {
