@@ -296,9 +296,17 @@ const App: React.FC = () => {
             <a href="https://www.instagram.com/khronos_centroentrenamiento/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#F4E028] transition-colors"><Instagram /></a>
           </div>
 
-          <p className="text-gray-600 text-xs font-mono">
-            © 2025 KHRONOS CENTRO ENTRENAMIENTO
-          </p>
+          <div className="text-center md:text-right text-xs font-mono text-gray-600">
+            <p>© 2025 KHRONOS CENTRO ENTRENAMIENTO</p>
+            <a
+              href="https://vostex.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-2 text-gray-500 hover:text-[#F4E028] transition-colors"
+            >
+              Designed by Vostex
+            </a>
+          </div>
         </div>
       </footer>
 
